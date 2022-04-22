@@ -1,7 +1,82 @@
 #menu
 {
 	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	width: 100%;
-	height: 35px;
-	background: white;
+	height: 50px;
+	padding: 10px 90px;
+	background: #9bddff;
+	box-sizing: content-box;
+	box-shadow: 1px 1px 2px black, 0 0 10px rgb(13, 13, 34), 0 0 5px darkblue;;
+	border-bottom: 0px;
+
+
+
+	
+}
+
+a{
+	width: 100px;
+	display: block;
+	padding: 20px 15px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0 0 0 150px;
+	padding: 0;
+  }
+
+ li{
+	align-items: center;
+	top: 0;
+	list-style: none;
+	border-right: 1px solid #4169e1;
+	display: inline;
+	float: left;
+}
+
+
+ li a{
+	padding: 12px 30px;
+	text-transform: capitalize;
+	display: block;
+	background-color: #9bddff;
+}
+
+/* normal unvisited link */
+ a:link{
+	color: #f0a308;
+}
+
+/* the links when they were already visited */
+ a :visited{
+	color: #bb7c0867;
+	padding: 14px 25px;
+	text-decoration: none;
+}
+
+/* the links when you hover over them */
+ a :hover{
+	color: #000;
+}
+
+/* the color of the link when it is active */
+ a:active {
+	color: rgb(17, 0, 255);
+  }
+
+.TrumpLogo{
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	margin-top: 0px;
+	margin-left: 0px;
+	position: absolute;
+
 }
