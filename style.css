@@ -1,3 +1,5 @@
+body {background-color: #cba135;}
+
 #menu
 {
 	position: fixed;
@@ -36,47 +38,60 @@ ul {
 	align-items: center;
 	top: 0;
 	list-style: none;
-	border-right: 1px solid #4169e1;
+	border-right: 2px solid #23297a;
 	display: inline;
 	float: left;
+	font-weight: bolder;
+	height: 50px;
+	
 }
 
 
+
+
  li a{
-	padding: 12px 30px;
+	padding: 15px 30px;
 	text-transform: capitalize;
 	display: block;
 	background-color: #9bddff;
 }
 
 /* normal unvisited link */
- a:link{
+ li link{
 	color: #f0a308;
+	font-style: oblique;
+	font-weight: bold;
 }
 
 /* the links when they were already visited */
- a :visited{
-	color: #bb7c0867;
+ li :visited{
+	color: #bb7c086e;
 	padding: 14px 25px;
 	text-decoration: none;
 }
 
 /* the links when you hover over them */
- a :hover{
+ li :hover{
 	color: #000;
 }
 
 /* the color of the link when it is active */
  a:active {
-	color: rgb(17, 0, 255);
+	color: rgb(0, 255, 106);
   }
 
 .TrumpLogo{
-	width: 46px;
-	height: 46px;
-	border-radius: 50%;
-	margin-top: 0px;
-	margin-left: 0px;
-	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 70px;
+	display: block;
+	position: fixed;
+	-moz-box-shadow: 0px 0px 4px rgba(26, 3, 175, 0.55);
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.55);
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	z-index: 200; /* the stack order: foreground */
+	margin: auto;
 
 }
